@@ -2,6 +2,16 @@
 
 class Dog:
     # Class body goes here
+    def bark(self):
+        print("Woof!")
+    def sit(self):
+        print("The dog is sitting.")
 
-    #Instance method definition
-    pass
+# Creating a Dog object
+simba=Dog()
+simba = Dog()
+
+# Calling the instance method
+simba.bark()
+simba.sit()
+pass
